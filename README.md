@@ -4,7 +4,10 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe resizable-panel here.
+flexbox driven resizable panel component.
+supports any permutation of flexing and non-flexing panel
+
+Demo: http://resizable-panel.surge.sh/
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.svg?style=flat-square
 [build]: https://travis-ci.org/user/repo
