@@ -1,0 +1,52 @@
+
+* {
+  user-select: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:local(.app) {
+  width: 100vw;
+  height: 100vh;
+  font-size: 13px;
+  overflow: hidden;
+}
+
+:local(.app button) {
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 0 5px;
+  height: 22px;
+  background-image: linear-gradient(#FEFEFE, #F1F1F1);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+}
+
+:local(.header) {
+  border-bottom: 1px solid #B1B1B1;
+  background-image: linear-gradient(#E7E5E7, #D0CED0);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+}
+
+:local(.spacer) {
+  width: 1px;
+  height: 38px;
+  margin-right: 10px;
+  background-image: linear-gradient(#E7E5E7, #B1B1B1);
+}
+
+:local(.sidebar) {
+  overflow: hidden;
+  background-color: #E8ECF0;
+}
+
+:local(.canvas),
+:local(.content) {
+  overflow: hidden;
+  padding: 10px;
+}
